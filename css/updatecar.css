@@ -1,0 +1,324 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#container{
+	z-index:10;
+	width:1349px;
+	margin: 0 auto;
+}
+/******************导航********************/
+#nav{
+	width: 1349px;
+	height: 80px;
+	background-color:#fff;
+	z-index:15;
+	position: fixed;
+}
+#nav-pic{
+	float:left;
+	width:200px;
+	margin:22px 280px 0 55px;
+}
+#nav-select{
+	width:550px;
+	float:left;
+	margin-left:-50px;
+}
+#button{
+	border:1px solid #fff;
+	width:300px;
+	float:right;
+}
+.logo{
+	background: url( /images/logo-1.png) no-repeat;
+	width: 200px;
+	height: 42px;
+}
+.nav-ul li{
+	float: left;
+	font-size:16px;
+	margin-left:25px;
+	line-height:80px;
+	width: 80px;
+	text-align: center;
+	margin-top:5px;
+}
+.nav-ul li a{
+	text-decoration: none;
+	color: #4B4B4B;
+}
+.nav-ul li a:hover{
+	text-decoration: none;
+	color: #00A900;
+	transition-duration: 1s;
+}
+#longin,#register,#retire{
+	width: 60px;
+	margin-top:21px;
+	height: 45px;
+	border-radius:5px;
+	background-color: #61A93E;
+	cursor:pointer;
+	line-height:45px;
+	text-align: center;
+	font-size:12px;
+	color:#fff;
+	float:left;
+	margin-left:25px;
+}
+#longin:hover,#register:hover,#retire:hover{
+	background-color: #1D1417;
+}
+/*************************header*****************************/
+#header{
+	background: url(/images/bg-4.jpg);
+	width: 100%;
+	height: 457px;
+	opacity:0.8;
+	overflow:hidden;
+}
+#header p:first-child{
+	font-size:45px;
+	color:white;
+	margin-top:230px;
+	text-align: center;
+}
+#header p:last-child{
+	font-size:15px;
+	text-align: center;
+}
+#header p:last-child a{
+	color:white;
+	text-decoration: none;
+}
+#header p:last-child a:hover{
+	color:green;
+}
+/************************login and reginter**********************************/
+#locon{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display:none;
+	z-index:99;
+	position: absolute;
+	top:0;
+	overflow: hidden;
+}
+#loncon-warp{
+	width: 35%;
+	height: 400px;
+	background-color:rgba(0,0,0,0.7);
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+#title{
+	color:white;
+	margin-top:20px;
+	margin-left:20px;
+}
+#title p:first-child{
+	font-size:24px;
+	margin-bottom:20px;
+	width: 100%;
+	display: inline-block;
+}
+#title p:first-child img{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+#title p:last-child{
+	font-size:18px;
+	margin-bottom:20px;
+}
+#ioncon-input{
+	margin-left:20px;
+}
+#ioncon-input input{
+	width: 420px;
+	height: 45px;
+	border-radius:5px;
+	margin-top: 20px;
+}
+#ioncon-input #code{
+	width: 300px;
+}
+/********************reginter****************************/
+#reg{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display:none;
+	z-index:99;
+	position: absolute;
+	top:0;
+	overflow: hidden;
+}
+#reg-warp{
+	width: 35%;
+	height: 450px;
+	background-color:rgba(0,0,0,0.7);
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+#title{
+	color:white;
+	margin-top:20px;
+	margin-left:20px;
+}
+#title p:first-child{
+	font-size:24px;
+	margin-bottom:20px;
+}
+#title p:first-child img{
+	float: right;
+	margin-right:15px;
+	cursor:pointer;
+}
+#title p:last-child{
+	font-size:18px;
+	margin-bottom:20px;
+}
+#reg-input{
+	margin-left:20px;
+}
+#reg-input input{
+	width: 400px;
+	height: 45px;
+	border-radius:5px;
+	margin-top: 20px;
+}
+/***************************information********************************/
+#information{
+	background-color: #212B31;
+	height: 550px;
+	width: 1349px;
+	color:#F4F4F4;
+	margin:0 auto;
+}
+#information .inf-top{
+	background-image:url( /images/sub-bg.jpg);
+	height: 200px;
+	overflow:hidden;
+}
+#information .inf-top p{
+	text-align: center;
+	margin-top: 100px;
+	font-size:24px;
+}
+#information .inf-bottom{
+	height: 350px;
+}
+.inf-bottom .inf1{
+	width:449px;
+	height:100%;
+}
+.inf-bottom .inf1,.inf-bottom .inf2,.inf-bottom .inf3{
+	float:left;
+	width:445px;
+	height:100%;
+}
+#information .inf-bottom .inf2 h3{
+	margin: 55px 0 25px 25px;
+}
+#information .inf-bottom .inf1 h3{
+	margin: 55px 0 25px 100px;
+}
+#information .inf-bottom .inf1 ul{
+	width:290px;
+	height:230px;
+	margin:0 auto;
+}
+#information .inf-bottom .inf1 ul li{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	transition:all 2s;
+}
+#information .inf-bottom .inf1 ul li:hover{
+	transform:scale(1.2);
+}
+#information .inf-bottom .inf2 p{
+	line-height: 25px;
+	margin-left: 25px;
+	font-size:14px;
+	height:200px;
+	width:420px;
+}
+#information .inf-bottom .inf3 h3{
+	margin: 55px 0 25px 55px;
+}
+#information .inf-bottom .inf3 .inf3-1{
+	margin-bottom:25px;
+	margin-left:55px;
+	display: grid;
+	grid-template-columns:65px auto;
+}
+#information .inf-bottom .inf3 .inf3-1 .img1{
+	background-image: url( /images/resource/post-thumb-4.jpg);
+	width: 65px;
+	height: 65px;
+}
+#information .inf-bottom .inf3 .inf3-1 .img2{
+	background-image: url( /images/resource/featured-image-6a.jpg);
+	background-size:cover;
+	width: 65px;
+	height: 65px;
+}
+#information .inf-bottom .inf3 .inf3-1 span{
+	margin: 0 25px;
+	font-size:14px;
+	line-height:25PX;
+	cursor:pointer;
+	transition-duration:2s;
+}
+#information .inf-bottom .inf3 .inf3-1 span:hover{
+	color:#15E75C;
+}
+/***************************carinfo********************************/
+#carinfo{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+#carinfo h2{
+	height:100px;
+	line-height:50px;
+	width:700px;
+	text-align:center;
+	margin:0 auto;
+}
+#carinfo #center{
+	width:100%;
+	height:100%;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+#carinfo #center #show{
+	width:850px;
+	height:auto;
+	margin:10px auto;
+	overflow:auto;
+	padding:15px;
+	box-sizing:border-box;
+}
+#carinfo #center #total{
+	width:850px;
+	height:80px;
+	margin:10px auto;
+	text-align:center;
+	line-height:100px;
+	font-size:25px;
+}

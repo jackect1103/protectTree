@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#container{
+	z-index:10;
+	width:1349px;
+	margin: 0 auto;
+	height:957px;
+	background-image:url(../images/background/bg-04.jpg);
+	position:relative;
+}
+/******************导航********************/
+#nav{
+	width: 1349px;
+	height: 80px;
+	background-color:#fff;
+	z-index:15;
+	position: fixed;
+}
+#nav-pic{
+	float:left;
+	width:200px;
+	margin:22px 280px 0 55px;
+}
+#nav-select{
+	width:550px;
+	float:left;
+	margin-left:-50px;
+}
+#button{
+	border:1px solid #fff;
+	width:300px;
+	float:right;
+}
+.logo{
+	background: url( /images/logo-1.png) no-repeat;
+	width: 200px;
+	height: 42px;
+}
+.nav-ul li{
+	float: left;
+	font-size:16px;
+	margin-left:25px;
+	line-height:80px;
+	width: 80px;
+	text-align: center;
+	margin-top:5px;
+}
+.nav-ul li a{
+	text-decoration: none;
+	color: #4B4B4B;
+}
+.nav-ul li a:hover{
+	text-decoration: none;
+	color: #00A900;
+	transition-duration: 1s;
+}
+#longin,#register,#retire{
+	width: 60px;
+	margin-top:21px;
+	height: 45px;
+	border-radius:5px;
+	background-color: #61A93E;
+	cursor:pointer;
+	line-height:45px;
+	text-align: center;
+	font-size:12px;
+	color:#fff;
+	float:left;
+	margin-left:25px;
+}
+#longin:hover,#register:hover,#retire:hover{
+	background-color: #1D1417;
+}
+/*******************message**********************/
+#message{
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-500px;
+	width:1000px;
+	height:700px;
+}
+#message h2{
+	width:1005px;
+	height:105px;
+	text-align:center;
+	line-height:55px;
+	color:#1F90B0;
+	margin-top:25px;
+}
+#message p{
+	width:1005px;
+	height:55px;
+	text-align:center;
+	line-height:55px;
+	color:#1F90B0;
+	margin-top:25px;
+}
+#form1{
+	width:500px;
+	height:470px;
+	margin:0 auto;
+}
+#form1 .form-group{
+	width:100%;
+	height:75px;
+	margin:10px 0 25px 25px;
+}
+#form1 input{
+	width:400px;
+	height:55px;
+}
+#form1 input:hover,#form1 textarea:hover{
+	border:1px solid #ccc;
+	box-shadow:0 0 3px 2px #ccc;
+}
+#form1 #btn{
+	width:100px;
+	height:55px;
+	margin:10px 0;
+	margin-left:300px;
+	box-sizing:border-box;
+	color:#fff;
+}
+/************************login and reginter**********************************/
+#locon{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display:none;
+	z-index:99;
+	position: absolute;
+	top:0;
+	overflow: hidden;
+}
+#loncon-warp{
+	width: 35%;
+	height: 400px;
+	background-color:rgba(0,0,0,0.7);
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+#title{
+	color:white;
+	margin-top:20px;
+	margin-left:20px;
+}
+#title p:first-child{
+	font-size:24px;
+	margin-bottom:20px;
+	width: 100%;
+	display: inline-block;
+}
+#title p:first-child img{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+#title p:last-child{
+	font-size:18px;
+	margin-bottom:20px;
+}
+#ioncon-input{
+	margin-left:20px;
+}
+#ioncon-input input{
+	width: 420px;
+	height: 45px;
+	border-radius:5px;
+	margin-top: 20px;
+}
+#ioncon-input #code{
+	width: 300px;
+}
+/********************reginter****************************/
+#reg{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	display:none;
+	z-index:99;
+	position: absolute;
+	top:0;
+	overflow: hidden;
+}
+#reg-warp{
+	width: 35%;
+	height: 450px;
+	background-color:rgba(0,0,0,0.7);
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: hidden;
+}
+#title{
+	color:white;
+	margin-top:20px;
+	margin-left:20px;
+}
+#title p:first-child{
+	font-size:24px;
+	margin-bottom:20px;
+}
+#title p:first-child img{
+	float: right;
+	margin-right:15px;
+	cursor:pointer;
+}
+#title p:last-child{
+	font-size:18px;
+	margin-bottom:20px;
+}
+#reg-input{
+	margin-left:20px;
+}
+#reg-input input{
+	width: 400px;
+	height: 45px;
+	border-radius:5px;
+	margin-top: 20px;
+}
